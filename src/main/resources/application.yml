@@ -1,0 +1,10 @@
+server:
+  port: 8089
+eureka:
+  instance:
+    hostname: 192.168.112.60
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    serviceUrl:
+       defaultZone: http://192.168.112.60:8088/eureka/
